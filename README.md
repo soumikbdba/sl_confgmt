@@ -1,4 +1,5 @@
-This repository includes two files for setting up and configuring a server:
+This repository includes two files for setting up and configuring a server or multiple servers:
+This script should be run from the specified directory and both scripts should be placed on same directory.
 
 bootstrap.sh
 config_management.py
@@ -17,7 +18,8 @@ Instructions:
 1. Make sure you have the necessary permissions to run the script:
 2. The script will automatically update package lists, install the required packages, create the necessary directories, and configure Apache. 
    It will also restart the Apache web server to apply the changes.
-3. This script can be run individually or even this is called from the config_management.py script also.
+3. This script can be run individually/independently or even this is called from the config_management.py script also.
+4. Command to run - #./bootstrap.sh
 
 
 ####################
@@ -33,7 +35,7 @@ Instructions:
 
 1. Ensure you have Python 3 installed on your system.
 2. Run the script using the following command:
-   python3 config_management.py
+   #python3 config_management.py
    
 3. The script will perform the following actions:
 
